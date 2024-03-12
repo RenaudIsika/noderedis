@@ -7,7 +7,7 @@ const app = express()
 
 app.get("/", async function(req, res) {
     point = await redis.incr('hits');
-    res.send("Hello World AL25!" + point + ' times!\n');
+    res.send("Hello World AL26!" + point + ' times!\n');
 });
 
 
